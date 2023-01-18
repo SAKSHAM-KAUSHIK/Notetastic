@@ -60,15 +60,26 @@ footer p {
 }
 
 .note h1 {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 6px;
+  text-align: center;
 }
 
-.note p {
+.p0 {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.p1 {
+  font-size: 0.9em;
+  margin-top: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-style: italic;
+  color: #F9B208;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .note button {

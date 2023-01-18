@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Notetastic/static/js/main.22561338.js",
+    "main.js": "/Notetastic/static/js/main.727da6a6.js",
     "static/media/Logo.jpg": "/Notetastic/static/media/Logo.6549a209e24d22ea205d.jpg",
     "index.html": "/Notetastic/index.html",
-    "main.22561338.js.map": "/Notetastic/static/js/main.22561338.js.map"
+    "main.727da6a6.js.map": "/Notetastic/static/js/main.727da6a6.js.map"
   },
   "entrypoints": [
-    "static/js/main.22561338.js"
+    "static/js/main.727da6a6.js"
   ]
 }
