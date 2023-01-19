@@ -1,7 +1,7 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
   "homepage": "https://SAKSHAM-KAUSHIK.github.io/Notetastic",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
+    "react-toastify": "^9.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

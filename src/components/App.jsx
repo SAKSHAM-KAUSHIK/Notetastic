@@ -3,14 +3,28 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import CreateArea from "./CreateArea";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [notes, setNotes] = useState([]);
 
   function addNote(newNote) {
-    setNotes(prevNotes => {
-      return [...prevNotes, newNote];
-    });
+    if (newNote.content === "" && newNote.title === "") toast.warn('Empty notes not allowed!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "dark",
+      });
+    else {
+      setNotes(prevNotes => {
+        return [...prevNotes, newNote];
+      });
+    }
   }
 
   useEffect(() => {
@@ -47,6 +61,7 @@ useEffect(() => {
           />
         );
       })}
+      <ToastContainer />
       <Footer />
     </div>
   );
