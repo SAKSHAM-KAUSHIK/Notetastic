@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.js": "/Notetastic/static/js/main.727da6a6.js",
+    "main.css": "/Notetastic/static/css/main.b3eeeea7.css",
+    "main.js": "/Notetastic/static/js/main.fbbead5f.js",
     "static/media/Logo.jpg": "/Notetastic/static/media/Logo.6549a209e24d22ea205d.jpg",
     "index.html": "/Notetastic/index.html",
-    "main.727da6a6.js.map": "/Notetastic/static/js/main.727da6a6.js.map"
+    "main.b3eeeea7.css.map": "/Notetastic/static/css/main.b3eeeea7.css.map",
+    "main.fbbead5f.js.map": "/Notetastic/static/js/main.fbbead5f.js.map"
   },
   "entrypoints": [
-    "static/js/main.727da6a6.js"
+    "static/css/main.b3eeeea7.css",
+    "static/js/main.fbbead5f.js"
   ]
 }
